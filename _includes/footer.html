@@ -1,0 +1,28 @@
+<footer class="center">
+  <div class="measure">
+    {% assign pages = site.pages | sort: 'weight' %}
+    <ul>
+      {% for page in site.pages %}
+      {% if page.menu contains "footer" and page.hidden != true %}
+      <li>
+        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      </li>
+	    {% endif %}
+		{% endfor %}
+    </ul>
+    <p>
+      Produced by <a href="http://meetup.com/a11ysea">A11ySea</a>, <a href="https://twitter.com/marcysutton">Marcy Sutton</a> and <a href="https://twitter.com/devonpersing">Devon Persing</a>.<br>Artwork by <a href="http://cordeliadillon.com/">Cordelia McGee-Tubb</a>.
+    </p>
+
+    <div class="clearfix"></div>
+    {% if site.show_social_icons %}
+      {% include social_links.html %}
+    {% endif %}
+  </div>
+</footer>
+{% if site.enable_anchorjs %}<!-- AnchorJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.0.0/anchor.min.js"></script>
+<script>
+    anchors.options.visible = 'always';
+    anchors.add('article h2, article h3, article h4, article h5, article h6');
+</script>{% endif %}

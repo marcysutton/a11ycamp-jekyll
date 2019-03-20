@@ -1,0 +1,86 @@
+.site-header {
+  padding-top: $space-1;
+  padding-bottom: 0;
+
+  .site-title {
+    font-size: $h2;
+    margin: 0;
+    text-align: center;
+
+    a {
+      color: #333;
+      font-weight: 300;
+      background-image: none;
+      border-bottom: none;
+    }
+  }
+}
+.site-subhead {  
+  text-align: center;
+
+  h2 {
+    font-size: $h3;
+    margin-top: 0;
+
+    a {
+      color: #333;
+      border-bottom: none;
+      font-weight: 500;
+    }
+  }
+}
+.header-graphic {
+  max-width: 180px;
+  margin: 0 auto;
+  text-align: center;
+}
+.site-nav {
+  margin-top: $space-2;
+}
+.site-nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.site-nav ul li {
+  flex-shrink: 3;
+  font-size: $nav-link-font-size;
+  list-style: none;
+  line-height: 2;
+  padding: 0 $space-2;
+}
+.site-header nav a {
+  color: $blue;
+}
+
+.site-header nav a:hover,
+.site-header nav a:focus,
+.site-header nav a:active {
+  color: #444;
+  opacity: 1;
+}
+
+.site-nav a.active {
+  border-bottom: none;
+  color: $purple;
+  font-weight: bold;
+}
+.site-nav a + a {
+  margin-left: 1em;
+}
+
+.site-header a:hover,
+.posts .post a:hover .post-meta,
+.posts .post a:hover .post-title,
+.posts .post a:hover .post-summary {
+  opacity: 0.88;
+}
+
+.site-header {
+  text-align: center;
+}
+
+.site-header .site-nav {
+  text-align: center;
+}

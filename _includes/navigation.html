@@ -1,0 +1,9 @@
+{% assign pages = site.pages | sort: 'weight' %}
+<ul class="mt2">
+	<!--<li>
+    <a href="/"{% if page.url == site.baseurl %} class="active" aria-current="page"{% endif %}>Home</a>
+  </li>-->{% for item in pages %}{% if item.menu contains "main" and item.hidden != true %}
+  <li>
+    <a href="{{ item.url | prepend: site.baseurl }}"{% if item.url == page.url %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+  </li>{% endif %}{% endfor %}
+</ul>

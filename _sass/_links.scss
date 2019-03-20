@@ -1,0 +1,54 @@
+a {
+  color: $link-color;
+  border-bottom: 0.15rem solid;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: $link-hover-color;
+  text-decoration: none;
+}
+
+li a,
+p a {
+  border-bottom-width: 1px;
+}
+a[target="_blank"] {
+  &:after {
+    background: url(../images/new-window.gif) bottom right no-repeat;
+    background-size: auto;
+    content: '';
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+  }
+}
+
+// Correct issues with buttons
+button,
+.button {
+  text-shadow: none;
+  background-image: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  color: white;
+  text-shadow: none;
+  background-image: none;
+}
+
+.anchorjs-link {
+  color: inherit;
+  border-bottom: none;
+}
+// .anchorjs-link:hover,
+// .anchorjs-link:focus,
+// .anchorjs-link:active {
+//     border: 0;
+//     color: $link-hover-color;
+//     text-shadow: none;
+//     background-image: none;
+// }

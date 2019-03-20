@@ -1,0 +1,83 @@
+.home {
+  .site-header {
+    .site-title {
+      font-size: $h1;
+    }
+  }
+  .site-subhead {
+    h2 {
+      font-weight: 500;
+    }
+    h3 {
+      font-weight: 600;
+      margin-top: 0.5em;
+    }
+  }
+  figure {
+    margin: 0;
+
+    img {
+      max-width: 70%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .logos {
+    align-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 2rem;
+    padding: 0;
+    max-width: $viewport-medium;
+
+    li {
+      align-self: center;
+      display: block;
+      margin: 1rem 0;
+
+      &.logo-deque {
+        width: 30%;
+      }
+      &.logo-sa {
+        width: 40%;
+      }
+      &.logo-starbucks {
+        width: 16%;
+      }
+      &.logo-microsoft {
+        width: 45%;
+      }
+      &.logo-egghead {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        width: 45%;
+      }
+      &.logo-foundry {
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+      }
+      a {
+        border-bottom: none;
+        display: block;
+
+        svg {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .logos + p.center {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: $viewport-large) {
+  .home figure img {
+    max-width: 50%;
+  }
+}
