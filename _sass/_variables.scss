@@ -30,15 +30,16 @@ $measure-width: 51rem !default;
 $viewport-small: 32em;
 $viewport-medium: 48em;
 $viewport-large: 64em;
+$small-screens: 800px;
 
 // Colors
 $blue: #0073d9 !default;
 $red: #f95020 !default;
 $green: #00cf26 !default;
 $yellow: #efcc00 !default;
-$orange: #ffcc22 !default;
-$purple: #363795 !default;
-$dark-blue: #00369f !default;
+$orange: #b38207 !default;
+$purple: #6c407e !default;
+$dark-blue: #393d98 !default;
 $green: #00ab37 !default;
 $dark-green: #009f06 !default;
 $light-pink: #ffdddd !default;
@@ -61,7 +62,7 @@ $breakpoint-md: '(min-width: 52em)';
 $breakpoint-xl: '(min-width: 96em)';
 
 // Whitespace
-$space-1: .5rem !default;
+$space-1: .25rem !default;
 $space-2: 1rem !default;
 $space-3: 2rem !default;
 $space-4: 4rem !default;

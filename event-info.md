@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Event Information
+title: About the Event
 permalink: /event-info/
-hidden: true
+hidden: false
 menu: main
 weight: 2
 ---
 
-Accessibility Camp Seattle is a *free*, single-day unconference event held at the Seattle Central Library on Saturday, September 23, 2017 from 9am-5:30pm. Doors open for coffee/tea and a light breakfast at 8:00am. [More food information below](#food-info).
+Accessibility Camp Seattle is a *free*, single-day unconference event held at Seattle Central College on Saturday, May 18th, 2019 from 9:30am-4:30pm. Doors open for coffee/tea and a light breakfast at 8:30am. [More food information below](#food-info).
 
-Our part of the wonderfully accessible venue can hold up to 150 people, so be sure to register soon and reserve your spot. (We’ll have a waitlist after the first 150.)
+Our venue can hold up to 150 people, so be sure to register soon and reserve your spot. (We’ll have a waitlist after the first 150.)
 
 - [What’s an Unconference?](#whats-an-unconference)
 - [Food information](#food-info)
@@ -33,13 +33,13 @@ If you bring slides, video or other media to share, you are responsible for maki
 
 <h2 id="food-info" tabindex="-1">Food options</h2>
 
-Coffee and tea will be served in the morning along with a light breakfast, courtesy of Starbucks. Lunch will be provided courtesy of Microsoft, with snacks and drinks thanks to Egghead.io.
+Coffee and tea will be served in the morning along with a light breakfast. Lunch, snacks and drinks will also be provided.
 
 Let us know during registration if you need a vegetarian or vegan option, or if you have other dietary concerns.
 
 <h2 id="childcare" tabindex="-1">Childcare</h2>
 
-We know that it can be hard to attend an event on the weekend if you’ve got family obligations. You are welcome to bring kids, and will have the public library at your disposal during its open hours. During registration, we'd love to know if you need other options for childcare, and we're going to do our best to provide!
+We know that it can be hard to attend an event if you’ve got family obligations. Therefore, we plan to hire childcare professionals to make Accessibility Camp Seattle an event suitable for the whole family. During registration, please let us know if you need childcare and we'll do our best to provide it!
 
 <h2 id="getting-there" tabindex="-1">Getting to the Event</h2>
 

@@ -1,26 +1,19 @@
-.home {
-  .site-header {
-    .site-title {
-      font-size: $h1;
-    }
+section.home {
+  h2 {
+    font-size: 1.8em;
+    margin-top: 1em;
+    font-style: italic;
   }
-  .site-subhead {
-    h2 {
-      font-weight: 500;
-    }
-    h3 {
-      font-weight: 600;
-      margin-top: 0.5em;
-    }
-  }
-  figure {
-    margin: 0;
-
-    img {
-      max-width: 70%;
-      display: block;
-      margin: 0 auto;
-    }
+  // .homepage-callout {
+  //   background-color: #f2efef;
+  //   border: 1px solid #ccc;
+  //   display: inline-block;
+  //   padding: 0.25em;
+  // }
+  .buckets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5em;
   }
   .logos {
     align-content: space-between;
@@ -35,31 +28,28 @@
     li {
       align-self: center;
       display: block;
-      margin: 1rem 0;
+      margin: 1rem;
 
       &.logo-deque {
-        width: 30%;
-      }
-      &.logo-sa {
-        width: 40%;
+        width: 13%;
       }
       &.logo-starbucks {
-        width: 16%;
+        width: 8%;
       }
       &.logo-microsoft {
-        width: 45%;
+        width: 15%;
       }
       &.logo-egghead {
         margin-left: auto;
         margin-right: auto;
         margin-top: 2em;
         margin-bottom: 1em;
-        width: 45%;
+        width: 25%;
       }
       &.logo-foundry {
         margin-left: auto;
         margin-right: auto;
-        width: 45%;
+        width: 15%;
       }
       a {
         border-bottom: none;
@@ -79,5 +69,13 @@
 @media screen and (min-width: $viewport-large) {
   .home figure img {
     max-width: 50%;
+  }
+}
+@media screen and (max-width: $viewport-medium) {
+  .homepage-callout {
+    margin: 0 auto;
+  }
+  section.home .buckets {
+    display: block;
   }
 }

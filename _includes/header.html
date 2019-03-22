@@ -1,22 +1,20 @@
 <header class="site-header px-responsive" role="banner">
   <div class="mt2 wrap">
     <div class="measure">
-    {% if page.category == 'home' %}
-      <h1 class="site-title"><a href="/">{{ site.title | strip_html }}</a></h1>
-      <div class="site-subhead">
-        <!-- <h2 class="h3"><em>An unconference about accessibility and people</em></h2> -->
-        <h2>Saturday, September 23 – <a href="https://www.google.com/maps/place/Seattle+Public+Library-Central+Library/@47.6067006,-122.3325009,15z/data=!4m5!3m4!1s0x0:0xb3a044a779f5fdd2!8m2!3d47.6067006!4d-122.3325009?sa=X&ved=0ahUKEwjss83ZqrrWAhVGwmMKHRi3A4MQ_BIIogEwFg">Seattle Central Library</a></h2>
-      </div>
-    {% else %}
       <img src="{{ site.baseurl }}/images/a11y-octopus--purple.svg" alt="A11y Octopus" class="header-graphic">
-      <h1 class="site-title">{{ page.title | strip_html }}</h1>
-      <div class="site-subhead">
-        <h2><a href="/">{{ site.title | strip_html }}</a></h2>
-      </div>
-    {% endif %}
+      <h1 class="site-title"><a href="/">{{ site.title | strip_html }}</a></h1>
+      <h2 class="h3" style="margin-top:0.5em">{{ site.eventdate }} at Seattle Central College</h2>
       <nav class="site-nav">
         {% include navigation.html %}
       </nav>
     </div>
   </div>
+  <!--<svg viewBox="0 0 1440 160" style="position: absolute; bottom: 0; left: 0; width: 100%;">
+      <style type="text/css">
+        .st0{fill:#FFFFFF;}
+      </style>
+    <g>
+      <path class="st0" d="M1440,160V0C1263.4,134.9,616.6,158,0,158v2H1440z"/>
+    </g>
+  </svg>-->
 </header>

@@ -1,45 +1,55 @@
 .site-header {
-  padding-top: $space-1;
-  padding-bottom: 0;
+  background-color: #dbd9ea;
+  border-bottom-width: 2px;
+  border-bottom-color: $purple;
+  border-bottom-style: inset;
+  margin-bottom: $space-2;
+  padding: 1rem;
+  position: relative;
+  text-align: left;
 
+  .mt2 {
+    padding: 0 0 $space-1;
+    position: relative;
+    z-index: 1;
+  }
   .site-title {
-    font-size: $h2;
+    font-size: $h1;
     margin: 0;
-    text-align: center;
 
     a {
-      color: #333;
-      font-weight: 300;
+      color: #000;
       background-image: none;
       border-bottom: none;
     }
   }
 }
-.site-subhead {  
-  text-align: center;
+.site-subhead {
 
   h2 {
     font-size: $h3;
     margin-top: 0;
 
     a {
-      color: #333;
+      color: #fff;
       border-bottom: none;
       font-weight: 500;
+      text-decoration: none;
     }
   }
 }
 .header-graphic {
-  max-width: 180px;
-  margin: 0 auto;
+  // float: left;
   text-align: center;
+  max-width: 180px;
+  margin: 0 1em 0 0;
 }
 .site-nav {
   margin-top: $space-2;
 }
 .site-nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   padding: 0;
   flex-wrap: wrap;
 }
@@ -48,16 +58,19 @@
   font-size: $nav-link-font-size;
   list-style: none;
   line-height: 2;
-  padding: 0 $space-2;
+  padding: 0 $space-2 0 0;
+  margin: 0;
 }
 .site-header nav a {
-  color: $blue;
+  color: $dark-gray;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .site-header nav a:hover,
 .site-header nav a:focus,
 .site-header nav a:active {
-  color: #444;
+  color: $orange;
   opacity: 1;
 }
 
@@ -65,6 +78,7 @@
   border-bottom: none;
   color: $purple;
   font-weight: bold;
+  text-decoration: none;
 }
 .site-nav a + a {
   margin-left: 1em;
@@ -77,10 +91,14 @@
   opacity: 0.88;
 }
 
-.site-header {
-  text-align: center;
-}
-
-.site-header .site-nav {
-  text-align: center;
+@media screen and (max-width: $small-screens) {
+  .site-header {
+    text-align: center;
+  }
+  .header-graphic {
+    float: none;
+  }
+  .site-nav ul {
+    justify-content: center;
+  }
 }

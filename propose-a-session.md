@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Propose a Session
-permalink: /propose-a-session/
-hidden: true
+title: Proposing a Session
+permalink: /proposing-sessions/
+hidden: false
 menu: main
 weight: 3
 ---
 
-So, you’re coming to our unconference event–is there a specific session you’d hope to attend? We’re taking proposals ahead-of-time for unconference sessions focused on anything related to accessibility, both on-and-offline. Here are a few potential tracks for inspiration:
+So, you’re coming to our unconference event–is there a specific session you’d hope to see happen? We’re looking for unconference sessions focused on topics related to accessibility, in both digital and physical spaces. Here are a few potential tracks for inspiration:
 
 - Web Accessibility
 - Inclusive Gaming
@@ -16,7 +16,7 @@ So, you’re coming to our unconference event–is there a specific session you�
 - Standards and Guidelines
 - Assistive Technologies
 
-On the day of the event, we’ll mix submissions from the group in with your proposals to facilitate the most effective use of the day we can. It’s okay to submit more than one session, however, we can’t guarantee yours will be accepted.
+On the day of the event, we'll come together as a group to hear everyone's session ideas and vote on our favorites. You can suggest a topic to lead, or for someone else to lead. The people in attendance will decide which sessions are the most interesting and applicable for the day. Come to the event and shape the outcome with your passions and interests!
 
 Goals for the day include:
 
@@ -25,9 +25,7 @@ Goals for the day include:
 - Community building
 - Identifying solutions to our challenges
 
-To submit an unconference session, you have three options:
+## How to submit
 
-- Include it when you [register for the event](../registration).
-- Contact us to submit at [info@accessibilitycampseattle.org](mailto: info@accessibilitycampseattle.org).
-- Contribute your session in person, at the event.
+Submit a session by attending the event and proposing one at the start of the day. If the group votes yours in, you should be ready to host a discussion or present on an accessibility-related topic you're familiar with. Otherwise, another attendee will have to take up the idea in order for it to be selected. Prepared slides and presentation materials are welcome, but not necessary to lead a successful session.
 

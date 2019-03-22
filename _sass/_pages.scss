@@ -1,4 +1,15 @@
 .page .post,
 .home [role="main"] {
-	padding: 0 1rem;
+	padding: 0;
+
+	header h1 {
+		margin-top: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.page .post,
+	.home [role="main"] {
+		padding: 0 1rem;
+	}
 }
