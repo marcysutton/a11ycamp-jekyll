@@ -27,9 +27,8 @@ If you bring slides, video or other media to share, you are responsible for maki
 - 3rd Rule: If you want to present or lead a session, you must write your topic and name in a presentation slot during the morning scheduling.  
 - 4th Rule: Only short intros.  
 - 5th Rule: As many presentations/discussions at a time as facilities allow for.  
-- 6th Rule: No pre-scheduled presentations, no tourists.  
-- 7th Rule: Presentations/discussions will go on as long as they have to or until they run into another presentation/discussion slot.  
-- 8th Rule: If this is your first time at Accessibility Camp, you HAVE to present. (Ok, you don’t really HAVE to, but try to find someone to present with, or at least ask questions and be an interactive participant!)
+- 6th Rule: Presentations/discussions will go on as long as they have to or until they run into another presentation/discussion slot.  
+- 7th Rule: If this is your first time at Accessibility Camp, we would love for you to present. (You don’t really have to, but try to find someone to present with, or at least ask questions and be an interactive participant!)
 
 <h2 id="food-info" tabindex="-1">Food options</h2>
 
