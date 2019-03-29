@@ -52,6 +52,13 @@ $ jekyll serve --watch
 
 Now you can navigate to `localhost:4000` in your browser to see the site.
 
+### Jekyll Build
+
+To build the site for deployment:
+```
+$ jekyll build
+```
+
 ### Using Github Pages
 
 This site is hosted for free with Github Pages.
