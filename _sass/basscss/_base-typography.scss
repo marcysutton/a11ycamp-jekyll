@@ -1,5 +1,7 @@
 /* Basscss Base Typography */
-
+html {
+  font-size: 20px;
+}
 body {
   font-family: $font-family;
   line-height: $line-height;

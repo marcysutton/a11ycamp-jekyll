@@ -14,7 +14,6 @@
     z-index: 1;
   }
   .site-title {
-    font-size: $h1;
     margin: 0;
 
     a {
@@ -27,7 +26,6 @@
 .site-subhead {
 
   h2 {
-    font-size: $h3;
     margin-top: 0;
 
     a {
@@ -39,7 +37,6 @@
   }
 }
 .header-graphic {
-  // float: left;
   text-align: center;
   max-width: 180px;
   margin: 0 1em 0 0;
