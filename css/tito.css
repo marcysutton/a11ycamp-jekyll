@@ -7,7 +7,7 @@
         background:rgba(0,0,0,0.02);
         font-family:sans-serif;
         color:#333;
-        margin:20px auto;
+        margin:20px 0;
         max-width:900px;
         padding:10px 0 0 0;
         width:100%
@@ -87,7 +87,7 @@
 }
 
 .tito-ticket-description {
-        color:#adadad;
+        color:#565252;
         font-size:12px
 }
 
@@ -266,7 +266,7 @@ input.form-control.tito-discount-code-field.discount-code-field {
 }
 
 .tito-submit {
-        background:#428bca !important;
+        background:#113c60 !important;
         border:1px solid #357ebd !important;
         border-radius:4px !important;
         color:#fff !important;
