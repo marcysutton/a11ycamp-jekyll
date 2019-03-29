@@ -7,7 +7,7 @@ menu: main
 weight: 2
 ---
 
-Accessibility Camp Seattle is a *free*, single-day unconference event held at Seattle Central College on Saturday, May 18th, 2019 from 9:30am-4:30pm. Doors open for coffee/tea and a light breakfast at 8:30am. [More food information below](#food-info).
+Accessibility Camp Seattle is a *mostly free*, single-day unconference event held at Seattle Central College on Saturday, May 18th, 2019 from 9:30am-4:30pm. Doors open for coffee/tea and a light breakfast at 8:30am. Donations are requested for lunch ($10) and welcomed for small sponsorships (anything extra you wish to provide). [More food information below](#food-info).
 
 Our venue can hold up to 150 people, so be sure to register soon and reserve your spot. (We’ll have a waitlist after the first 150.)
 
@@ -33,9 +33,9 @@ If you bring slides, video or other media to share, you are responsible for maki
 
 <h2 id="food-info" tabindex="-1">Food options</h2>
 
-Coffee and tea will be served in the morning along with a light breakfast. Lunch, snacks and drinks will also be provided.
+Coffee and tea will be served in the morning along with a light breakfast. An optional lunch will be provided. You can select a free ticket without lunch and bring your own, or explore Seattle's Capitol Hill, or we request a $10+ donation for the catered lunch.
 
-Let us know during registration if you need a vegetarian or vegan option, or if you have other dietary concerns.
+Let us know during registration if you need a vegetarian, vegan, or gluten-free option.
 
 <h2 id="childcare" tabindex="-1">Childcare</h2>
 
