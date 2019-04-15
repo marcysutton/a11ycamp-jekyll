@@ -30,14 +30,17 @@ section.home {
       display: block;
       margin: 1rem;
 
+      &.logo-shopify {
+        width: 22%;
+      }
       &.logo-deque {
         width: 13%;
       }
       &.logo-starbucks {
-        width: 8%;
+        width: 11%;
       }
       &.logo-microsoft {
-        width: 15%;
+        width: 22%;
       }
       &.logo-egghead {
         margin-left: auto;
@@ -47,9 +50,9 @@ section.home {
         width: 25%;
       }
       &.logo-foundry {
-        margin-left: auto;
-        margin-right: auto;
-        width: 15%;
+        // margin-left: auto;
+        // margin-right: auto;
+        width: 19%;
       }
       a {
         border-bottom: none;
