@@ -17,6 +17,7 @@ section.home {
   }
   .logos {
     align-content: space-between;
+    align-items: middle;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -50,8 +51,8 @@ section.home {
         width: 25%;
       }
       &.logo-foundry {
-        // margin-left: auto;
-        // margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
         width: 19%;
       }
       a {
