@@ -14,3 +14,18 @@ blockquote footer {
   text-align: left;
   padding: 0;
 }
+
+.transcripts blockquote {
+  border-left-width: 0;
+  font-size: inherit;
+  margin: 0 0 $space-2;
+  padding-left: 0;
+}
+.transcripts blockquote p {
+  font-size: inherit;
+  margin-bottom: 0;
+
+  &:before {
+    content: '> ';
+  }
+}
